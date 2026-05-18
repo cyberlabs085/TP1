@@ -1,11 +1,185 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>NovaDigital — Agence Digitale</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;800&display=swap" rel="stylesheet">
 </head>
 <body>
-    
+
+  <!-- NAVBAR -->
+  <header class="navbar">
+    <div class="container nav-content">
+      <a href="#" class="logo">Nova<span>Digital</span></a>
+      <nav>
+        <ul class="nav-links" id="navLinks">
+          <li><a href="#accueil">Accueil</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#apropos">À propos</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <li><a href="#contact">Connexion</a></li>
+        </ul>
+      </nav>
+      <button class="burger" id="burger" aria-label="Menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- HERO -->
+  <section class="hero" id="accueil">
+    <div class="container hero-content">
+      <div class="hero-text">
+        <h1>Donnez vie à vos <span class="gradient">idées digitales</span></h1>
+        <p>Nous concevons, développons et maintenons des solutions web et mobiles sur mesure pour propulser votre entreprise vers le futur.</p>
+        <div class="hero-buttons">
+          <a href="#services" class="btn btn-primary">Nos services</a>
+          <a href="#contact" class="btn btn-outline">Nous contacter</a>
+        </div>
+      </div>
+      <div class="hero-image">
+        <img src="https://images.unsplash.com/photo-1551434678-e076c223a692?auto=format&fit=crop&w=800&q=80" alt="Équipe digitale au travail" />
+      </div>
+    </div>
+  </section>
+
+  <!-- SERVICES -->
+  <section class="services" id="services">
+    <div class="container">
+      <h2 class="section-title">Nos <span class="gradient">Services</span></h2>
+      <p class="section-subtitle">Des solutions complètes pour votre transformation numérique</p>
+
+      <div class="services-grid">
+        <div class="service-card">
+          <img src="https://images.unsplash.com/photo-1517694712202-14dd9538aa97?auto=format&fit=crop&w=600&q=80" alt="Développement web" />
+          <h3>Développement Web</h3>
+          <p>Sites vitrines, e-commerce et applications web modernes, performantes et responsives.</p>
+        </div>
+
+        <div class="service-card">
+          <img src="https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?auto=format&fit=crop&w=600&q=80" alt="Applications mobiles" />
+          <h3>Applications Mobiles</h3>
+          <p>Développement d'apps iOS et Android intuitives avec une expérience utilisateur soignée.</p>
+        </div>
+
+        <div class="service-card">
+          <img src="https://images.unsplash.com/photo-1581291518857-4e27b48ff24e?auto=format&fit=crop&w=600&q=80" alt="Maintenance" />
+          <h3>Maintenance & Support</h3>
+          <p>Suivi, mises à jour, correctifs et support technique 24/7 pour garder vos plateformes au top.</p>
+        </div>
+
+        <div class="service-card">
+          <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=600&q=80" alt="UI/UX Design" />
+          <h3>UI / UX Design</h3>
+          <p>Interfaces élégantes et ergonomiques, pensées pour vos utilisateurs et votre marque.</p>
+        </div>
+
+        <div class="service-card">
+          <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=600&q=80" alt="SEO Marketing" />
+          <h3>SEO & Marketing Digital</h3>
+          <p>Référencement, publicité en ligne et stratégie de contenu pour booster votre visibilité.</p>
+        </div>
+
+        <div class="service-card">
+          <img src="https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=600&q=80" alt="Cloud & DevOps" />
+          <h3>Cloud & DevOps</h3>
+          <p>Hébergement, automatisation et infrastructures scalables sur AWS, Azure ou GCP.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- A PROPOS -->
+  <section class="about" id="apropos">
+    <div class="container about-content">
+      <div class="about-image">
+        <img src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?auto=format&fit=crop&w=800&q=80" alt="Notre équipe" />
+      </div>
+      <div class="about-text">
+        <h2 class="section-title">À <span class="gradient">propos</span> de nous</h2>
+        <p>NovaDigital est une agence digitale passionnée par l'innovation. Depuis plus de 5 ans, nous accompagnons startups, PME et grands groupes dans leur transformation numérique.</p>
+        <p>Notre équipe pluridisciplinaire allie créativité, expertise technique et stratégie pour livrer des produits digitaux qui font la différence.</p>
+
+        <div class="stats">
+          <div class="stat"><h3 data-target="120">0</h3><p>Projets livrés</p></div>
+          <div class="stat"><h3 data-target="85">0</h3><p>Clients satisfaits</p></div>
+          <div class="stat"><h3 data-target="25">0</h3><p>Experts</p></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PORTFOLIO -->
+  <section class="portfolio" id="portfolio">
+    <div class="container">
+      <h2 class="section-title">Nos <span class="gradient">Réalisations</span></h2>
+      <p class="section-subtitle">Quelques projets dont nous sommes fiers</p>
+
+      <div class="portfolio-grid">
+        <div class="portfolio-item">
+          <img src="https://images.unsplash.com/photo-1556761175-5973dc0f32e7?auto=format&fit=crop&w=700&q=80" alt="Projet 1">
+          <div class="overlay"><h3>Plateforme E-commerce</h3><p>Boutique en ligne complète</p></div>
+        </div>
+        <div class="portfolio-item">
+          <img src="https://images.unsplash.com/photo-1559136555-9303baea8ebd?auto=format&fit=crop&w=700&q=80" alt="Projet 2">
+          <div class="overlay"><h3>App Bancaire</h3><p>Application mobile sécurisée</p></div>
+        </div>
+        <div class="portfolio-item">
+          <img src="https://images.unsplash.com/photo-1467232004584-a241de8bcf5d?auto=format&fit=crop&w=700&q=80" alt="Projet 3">
+          <div class="overlay"><h3>Dashboard Analytique</h3><p>Visualisation de données</p></div>
+        </div>
+        <div class="portfolio-item">
+          <img src="https://images.unsplash.com/photo-1432888622747-4eb9a8efeb07?auto=format&fit=crop&w=700&q=80" alt="Projet 4">
+          <div class="overlay"><h3>Site Corporate</h3><p>Refonte d'identité digitale</p></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="contact" id="contact">
+    <div class="container">
+      <h2 class="section-title">Travaillons <span class="gradient">ensemble</span></h2>
+      <p class="section-subtitle">Un projet en tête ? Parlons-en !</p>
+
+      <form class="contact-form" id="contactForm">
+        <div class="form-row">
+          <input type="text" placeholder="Votre nom" required />
+          <input type="email" placeholder="Votre email" required />
+        </div>
+        <input type="text" placeholder="Sujet" required />
+        <textarea rows="5" placeholder="Votre message..." required></textarea>
+        <button type="submit" class="btn btn-primary">Envoyer le message</button>
+        <p id="formMessage" class="form-message"></p>
+      </form>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container footer-content">
+      <div>
+        <h3 class="logo">Nova<span>Digital</span></h3>
+        <p>Votre partenaire digital de confiance.</p>
+      </div>
+      <div>
+        <h4>Contact</h4>
+        <p>contact@novadigital.com</p>
+        <p>+221 77 000 00 00</p>
+        <p>Dakar, Sénégal</p>
+      </div>
+      <div>
+        <h4>Suivez-nous</h4>
+        <p>Facebook · Instagram · LinkedIn · Twitter</p>
+      </div>
+    </div>
+    <p class="copyright">© 2026 NovaDigital — Tous droits réservés.</p>
+  </footer>
+
+  <script src="script.js"></script>
 </body>
 </html>
